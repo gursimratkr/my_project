@@ -1,0 +1,193 @@
+body
+{
+	top:0;
+	left:0;
+	margin-left:0;
+	margin-right:0;
+	font-family:cambria;
+}
+.left-menu
+{
+	float:left;
+	width:45%;
+	height:10%;
+}
+.left-menu ul
+{
+	margin-top:25px;
+	float:right;
+	margin-right:20px;
+	list-style-type:none;
+}
+.left-menu li
+{
+	float: left;
+	padding:2px;
+}
+.left-menu li a
+{
+	color:black;
+	font-family:cambria;
+	text-align: center;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	text-decoration: none;
+	font-size: 18px;
+}
+.right-menu
+{
+	float:left;
+	width:45%;
+	height:10%;
+}
+.right-menu ul
+{
+	margin-top:25px;
+	float:left;
+	list-style-type:none;
+}
+.right-menu li
+{
+	float: left;
+	padding:2px;
+}
+.right-menu li a
+{
+	color:black;
+	font-family:cambria;
+	text-align: center;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	text-decoration: none;
+	font-size: 18px;
+}
+.bg
+{
+	height:100%;
+	width:100%;
+	float:left;
+}
+.img
+{
+	height: 100%;  
+	background-position:center !important;
+	background-repeat: no-repeat !important;
+	background-size: 100% !important; 
+	background:url('images/cake-bg.jpg');
+}
+.img1
+{
+	height: 100%;  
+	background-position:center !important;
+	background-repeat: no-repeat !important;
+	background-size: 100% !important; 
+	background:url('images/c-b.png');
+}
+.text
+{
+	margin-left:10%;
+	font-size:60px;
+	font-family:Mistral;
+	text-align:left;
+	line-height:100px;
+	position:absolute;
+}
+
+#order
+{
+	border:2px solid #ff99aa;
+	border-radius:50px;
+	background-color:#ff99aa;
+	color:white;
+	padding:10px;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:15px;
+	position:absolute;
+	margin-top:28%;
+	margin-left:10%;
+}
+.left-box
+{
+	background:url('images/login.png');
+	background-repeat:no-repeat;
+	background-size:100%;
+	width:50%;
+	float:left;
+	height:80%;
+	box-shadow:0px 0px 15px 0px black;
+}
+.right-box
+{
+	width:50%;
+	float:right;
+	height:80%;
+	box-shadow:0px 0px 8px 0px black;
+}
+.login-box
+{
+	margin-top:10px;
+	width:100%;
+}
+.menu
+{
+	height:16%;
+	width:100%;
+}
+input
+{
+	width:100%;
+	padding:10px;
+	border-radius:50px;
+	box-shadow:0px 0px 5px 0px;
+	border:none;
+}
+.lform
+{
+	padding:20%;
+}
+.rform
+{
+	padding:10%;
+}
+.login-btn
+{
+	color:white;
+	font-size:15px;
+	font-weight:bold;
+	background:#ff99aa;
+	padding:10px;
+	cursor:pointer;
+	border-radius:50px;
+	border:none;
+	width:40%;
+	box-shadow:0px 0px 0px 0px;
+}
+.checkout-btn
+{
+	color:white;
+	font-size:15px;
+	font-weight:bold;
+	background:green;
+	padding:10px;
+	cursor:pointer;
+	text-decoration: none;
+	border:none;
+	width:40%;
+	box-shadow:0px 0px 5px 0px black;
+	margin-left:50%;
+}
+.int-text
+{
+	font-size:40px;
+	padding:17%;
+}
+.about
+{
+	margin-top:5%;
+	float:left;
+}
